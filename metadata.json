@@ -1,0 +1,6 @@
+{
+  "name": "Savorya",
+  "description": "Savorya — Luxury Fine Dining & Haute Cuisine Restaurant featuring seasonal menus, wine pairings, and reservations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,83 @@
+/* Import Tailwind CSS v4 core directives */
+@import "tailwindcss";
+
+/* Define custom luxury typography layers and styling */
+@layer base {
+  /* Set root smooth scrolling and font smoothing */
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  
+  /* Apply luxury display font for all headings */
+  h1, h2, h3, h4, h5, h6, .font-serif-luxury {
+    font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+    letter-spacing: -0.015em;
+  }
+  
+  /* Apply elegant Cormorant Garamond font for subtitles and quotes */
+  .font-cormorant {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+
+  /* Custom subtle dark scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #121212;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2a2a2a;
+    border-radius: 4px;
+    border: 1px solid #3a3a3a;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #D4AF37;
+  }
+}
+
+/* Custom utility classes for fine-dining dark aesthetics with warm gold */
+@layer utilities {
+  /* Obsidian glass background with gold subtle border */
+  .bg-obsidian-card {
+    background-color: rgba(26, 26, 26, 0.85);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(212, 175, 55, 0.18);
+  }
+
+  /* Obsidian deep dark background with higher opacity */
+  .bg-obsidian-solid {
+    background-color: #1a1a1a;
+  }
+
+  /* Gold metallic text accent */
+  .text-gold-primary {
+    color: #D4AF37;
+  }
+
+  /* Warm bronze secondary accent */
+  .text-gold-light {
+    color: #F3E5AB;
+  }
+
+  /* Warm bronze muted accent */
+  .text-gold-muted {
+    color: #C5A059;
+  }
+
+  /* Gold button gradient with dark text */
+  .bg-gold-gradient {
+    background: linear-gradient(135deg, #D4AF37 0%, #C5A059 50%, #B38E30 100%);
+  }
+
+  /* Gold border highlight */
+  .border-gold-subtle {
+    border-color: rgba(212, 175, 55, 0.25);
+  }
+
+  .border-gold-hover:hover {
+    border-color: rgba(212, 175, 55, 0.6);
+  }
+}
+

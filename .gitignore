@@ -1,9 +1,11 @@
 node_modules/
+build/
 dist/
 .vite/
+coverage/
 .env
 .env.*
+!.env.example
 .DS_Store
 npm-debug.log*
-coverage/
 *.log
