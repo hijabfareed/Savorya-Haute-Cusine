@@ -1,6 +1,6 @@
 # Savorya-Haute-Cuisine
 
-Savorya is a premium restaurant frontend built with React and Vite, designed to showcase a luxury fine-dining experience. It includes an elegant multi-page layout, interactive menu browsing, reservation flow, cart functionality, chef specials, offers, and a refined dark-gold aesthetic.
+Savorya is a premium restaurant frontend built with React, Typescript and Vite, designed to showcase a luxury fine-dining experience. It includes an elegant multi-page layout, interactive menu browsing, reservation flow, cart functionality, chef specials, offers, and a refined dark-gold aesthetic.
 
 ## Features
 - Luxury restaurant landing page
